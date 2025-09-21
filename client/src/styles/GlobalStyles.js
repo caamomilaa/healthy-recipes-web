@@ -24,7 +24,7 @@ export const GlobalStyles = createGlobalStyle`
     }
 
     body{
-        font-family: sans-serif;
+        font-family:"Nunito", sans-serif;
         margin: 0;
         background-color: #333;
     }
