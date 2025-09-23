@@ -1,4 +1,5 @@
 import { createGlobalStyle } from 'styled-components';
+import { COLORS } from './colors';
 export const GlobalStyles = createGlobalStyle`
     *,
     *::after,
@@ -26,7 +27,8 @@ export const GlobalStyles = createGlobalStyle`
     body{
         font-family:"Nunito", sans-serif;
         margin: 0;
-        background-color: #333;
+        background-color: ${COLORS.neutral100};
+        color: ${COLORS.neutral900};
     }
 
 `;
